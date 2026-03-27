@@ -30,15 +30,20 @@ h1 {
 .filho1 {
     margin-left: 0px;
    margin-bottom: 50px;
-}
-.filho2 {
-    margin-left: 200px;
-    
+   order: 1;
 }
 .filho3 {
     margin-left: 100px;
-    margin-bottom: 50px;
+     margin-bottom: 50px;
+    order: 2;
+    
 }
+.filho2 {
+    margin-left: 200px;
+    order: 3;
+    
+}
+
 
 .filho {
     width: 80px;
